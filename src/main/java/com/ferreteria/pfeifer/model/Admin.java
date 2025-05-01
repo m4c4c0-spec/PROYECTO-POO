@@ -1,5 +1,6 @@
 package com.ferreteria.pfeifer.model;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,9 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cliente extends Persona {
-    private String idCliente;
 
+public class Admin extends Persona {
+    private String idAdmin;
 }
-
-

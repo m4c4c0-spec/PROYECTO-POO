@@ -7,9 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cliente extends Persona {
-    private String idCliente;
 
+public abstract class Persona {
+
+    private String nombre;
+    private String email;
+    private String telefono;
+    private String contrasena;
 }
-
-
