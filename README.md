@@ -3,7 +3,7 @@ FERRETERIA-PFEIFERS
 
 ## Backend API
 
-El directorio `ferreteria-api` contiene un proyecto Spring Boot con un CRUD básico de productos. Para compilarlo y ejecutarlo utiliza Maven:
+El directorio `ferreteria-api` contiene un proyecto Spring Boot con un CRUD básico de productos que almacena la información en Firebase Firestore. Para compilarlo y ejecutarlo utiliza Maven. Previamente coloca las credenciales del servicio en `src/main/resources/firebase-service-account.json` (puedes partir de `firebase-service-account.json.example`):
 
 ```bash
 cd ferreteria-api
