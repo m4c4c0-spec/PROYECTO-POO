@@ -11,3 +11,15 @@ cd ferreteria-api
 ```
 
 Esto inicia el servidor en `http://localhost:8080`. El endpoint principal es `/api/products`.
+
+## Frontend React
+
+El directorio `ferreteria-frontend` contiene una aplicación React creada con Vite. Para instalar las dependencias y ejecutarla:
+
+```bash
+cd ferreteria-frontend
+npm install
+npm run dev
+```
+
+La aplicación se abrirá en `http://localhost:3000` y consumirá el backend desde `http://localhost:8080`.
